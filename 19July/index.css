@@ -1,0 +1,99 @@
+.flag{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+audio{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+body{
+    background-color: gray;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .drop{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover{
+    background-color: green;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dd-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dd-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dd-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dd-content {
+    display: block;
+  }
+  .now{
+      background-color: darkgreen;
+  }
+h1{
+    color: red;
+    text-align: center;
+}
+marquee{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+h3{
+    color: red;
+    text-align: center;
+}
+.title{
+    color: red;
+    text-align: center;
+}
+.one{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.no9{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
